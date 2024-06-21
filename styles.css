@@ -18,9 +18,13 @@ body {
     padding: 0 10px 0 15px;
 }
 
+.container h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #main-header {
-    background-color: rgba(255, 255, 255, 1); /* Adjust transparency as needed */
-    transition: background-color 0.3s ease; /* Smooth transition for background color change */
     position: fixed;
     width: 100%;
     z-index: 1000; /* Ensure header is above other content */
@@ -30,7 +34,10 @@ body {
 /* Transparent header styles */
 #main-header.transparent {
     /*  */
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust transparency as needed */
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust transparency as needed */
+    /* blur */
+    backdrop-filter: blur(10px);
+    
 }
 
 header {
@@ -97,7 +104,7 @@ header nav ul li a:hover {
 
 /* Hero section */
 #hero {
-    background-color: #003e80;
+    background-color: #007bff;
     color: #fff;
     padding: 100px 0;
     text-align: center;
@@ -156,6 +163,12 @@ header nav ul li a:hover {
 /* Features section */
 #features {
     padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
 }
 
 .feature-cards {
@@ -227,7 +240,7 @@ header nav ul li a:hover {
 }
 
 #download p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 30px;
 }
 
@@ -239,14 +252,7 @@ header nav ul li a:hover {
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.download-btn:focus,
-.download-btn:active {
-    background-color: #ffffff; /* Keep the button color consistent */
-    outline: none; /* Remove the focus outline */
-    box-shadow: none; /* Remove any box-shadow that might be added on focus */
+    text-transform: uppercase;
 }
 
 #header {
