@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pricey: Shopping Copilot App</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-container">
+                <a href="index.html" class="logo-container">
+                    <img class="logo-img" src="./assets/logo.svg" alt="Pricey Logo">
+                    <h1 class="logo-title">Pricey</h1>
+                </a>
+            </div>
+            <nav id="header">
+                <ul>
+                    <li>
+                        <div class="download-btn">Download</div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact-form-section">
+        <div class="container">
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form id="contactForm" method="post" action="mailto:support@pricey.pro">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+                <p class="success-message" id="successMessage">Message sent successfully!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2024 BEKRZ, MCHJ. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>

@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricey: Shopping Copilot App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header id="main-header">
         <div class="container">
             <!-- Logo -->
             <div class="logo-container">
-                <img class="logo-img" src="logo.svg" alt="Pricey Logo">
-                <h1 class="logo-title">Pricey</h1>
+                <a href="index.html" class="logo-container">
+                    <img class="logo-img" src="./assets/logo.svg" alt="Pricey Logo">
+                    <h1 class="logo-title">Pricey</h1>
+                </a>
             </div>
             <nav id="header">
                 <ul>
-                    <li><a href="#" class="download-btn">Download</a></li>
+                    <li>
+                        <div class="download-btn">Download</div>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -30,10 +34,10 @@
             </div>
             <div class="app-buttons">
                 <a href="#" class="app-button google-play">
-                    <img src="./google-play.webp" alt="Download on Google Play">
+                    <img src="assets/google-play.webp" alt="Download on Google Play">
                 </a>
                 <a href="#" class="app-button app-store">
-                    <img src="./app-store.png" alt="Download on the App Store">
+                    <img src="assets/app-store.png" alt="Download on the App Store">
                 </a>
             </div>
         </div>
@@ -80,10 +84,10 @@
             <p>Start saving money from today!</p>
             <div class="app-buttons">
                 <a href="#" class="app-button google-play">
-                    <img src="./google-play.webp" alt="Download on Google Play">
+                    <img src="assets/google-play.webp" alt="Download on Google Play">
                 </a>
                 <a href="#" class="app-button app-store">
-                    <img src="./app-store.png" alt="Download on the App Store">
+                    <img src="assets/app-store.png" alt="Download on the App Store">
                 </a>
             </div>
         </div>
@@ -91,16 +95,17 @@
 
     <!-- Privacy policy page link-->
   <div class="legal-container">
-    <a class="legal-link" href="https://docs.google.com/document/d/1ADArE9vX5eOhw76hor9Ttoodrk01zBzf0p18IOmmBoM/edit?usp=sharing">Privacy Policy</a>
-    <!-- separator -->
+    <a class="legal-link" href="html/privacy.html">Privacy</a>
     <p>|</p>
-    <a class="legal-link" href="terms-of-use.html">Terms of Use</a>
+    <a class="legal-link" href="html/terms.html">Terms</a>
+    <p>|</p>
+    <a class="legal-link" href="html/contact.html">Contact Us</a>
 </div>
     <footer id="contact">
         <div class="container">
-            <p>Contact us: support@pricey.pro</p>
+            <p>&copy; 2024 BEKRZ, MCHJ. All rights reserved.</p>
         </div>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
